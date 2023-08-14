@@ -1,70 +1,92 @@
-# Getting Started with Create React App
+# Koop - business management
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Welcome to Koop, business management like drinking water
 
-## Available Scripts
+![Tijara Logo](./public/KooP_OG.png)
 
-In the project directory, you can run:
+## Table of Contents
 
-### `npm start`
+- [Overview](#overview)
+- [Features](#features)
+- [Installation](#installation)
+- [Technologies Used](#technologies-used)
+- [Contributing](#contributing)
+- [License](#license)
+- [Contact](#contact)
+- [Screenshots](#screens)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Overview
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Koop: Empower your management tasks with ease using this sleek admin dashboard built with React and MUI. Seamlessly handle data with Data Grid while toggling between Light & Dark Mode for enhanced visibility. Streamline your operations and make data-driven decisions efficiently with Koop's intuitive interface.
 
-### `npm test`
+## Features
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- Detailed comments for every line (for beginners).
+- Dynamic UI brought to another level.
+- Extremely advanced CSS selectors.
+- Completely Responsive, Customizable, Modular design.
+- Dark/Dim/Light Modes support with different color themes.
+- Dunamically updated favicon according to color theme.
+- Easy user-friendly admin dashboard interface
+- User authentication and account management.
+- Effortless navigation using React Router.
+- Readable code with best practices and optimisation.
 
-### `npm run build`
+## Installation
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+1. Clone the repository:
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+```bash
+git clone https://github.com/salahyunus/koop.git
+```
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+2. Navigate to the project directory:
 
-### `npm run eject`
+```bash
+cd koop
+```
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+3. Ibstall Dependencies
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+```bash
+npm install
+```
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+Finally:
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+```bash
+npm start
+```
 
-## Learn More
+## Technologies Used
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+- Core:
+- [![My Skills](https://skillicons.dev/icons?i=js,html,css)](https://skillicons.dev)
+- Base:
+- ![React](https://img.shields.io/badge/-React-blue?logo=react&logoColor=white&style=flat)
+- Navigation:
+- ![React Router](https://img.shields.io/badge/-React%20Router-orange?logo=react-router&logoColor=white&style=flat)
+- Styling:
+- [![My Skills](https://skillicons.dev/icons?i=materialui)](https://skillicons.dev)
+- Charts:
+- Nivo
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## Contributing
 
-### Code Splitting
+I heartily welcome contributions from the community! To contribute to Tijara:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+1. Fork the repository.
+2. Create a new branch for your feature or bug fix: git checkout -b feature-name
+3. Make your changes and commit: git commit -m "Add feature"
+4. Push to your branch: git push origin feature-name
+5. reate a pull request detailing your changes.
 
-### Analyzing the Bundle Size
+## License
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+This project is licensed under the MIT License.
 
-### Making a Progressive Web App
+## Contact
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+For any inquiries or assistance, please reach out to me at salahyunusnew@gmail.com
 
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## SCREENSHOTS!
