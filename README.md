@@ -2,7 +2,7 @@
 
 Welcome to Koop, business management like drinking water
 
-![Tijara Logo](./public/KooP_OG.png)
+![Koop Logo](./public/KooP_OG.png)
 
 ## Table of Contents
 
