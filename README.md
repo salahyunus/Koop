@@ -90,3 +90,10 @@ This project is licensed under the MIT License.
 For any inquiries or assistance, please reach out to me at salahyunusnew@gmail.com
 
 ## SCREENSHOTS!
+
+- ![png1](./src/screenshots/1.png)
+- ![png2](./src/screenshots/2.png)
+- ![png3](./src/screenshots/3.png)
+- ![png4](./src/screenshots/4.png)
+- ![png5](./src/screenshots/5.png)
+- ![png6](./src/screenshots/6.png)
