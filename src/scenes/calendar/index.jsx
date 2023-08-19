@@ -42,7 +42,7 @@ const Calendar = () => {
   const handleEventClick = (selected) => {
     if (
       window.confirm(
-        `Are u Sure u Want to Delete the Event '${selected.event.title}'`
+        `r u Sure u Want to Delete the Event '${selected.event.title}'`
       )
     ) {
       selected.event.remove();
@@ -54,7 +54,6 @@ const Calendar = () => {
       <Sidebar isSidebar={isSidebar} />
       <main className="content">
         <Topbar setIsSidebar={setIsSidebar} />
-        {/*  */}
 
         <Box m="20px">
           <Header title="Calendar" subtitle="Full Calendar Interactive Page" />

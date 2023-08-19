@@ -4,21 +4,18 @@ import Sidebar from "../global/Sidebar";
 
 import Topbar from "../global/Topbar";
 
-import { useState } from "react";
 import GeographyChart from "../../components/GeographyChart";
 
 const Geography = () => {
-  const [isSidebar, setIsSidebar] = useState(true);
-
   return (
     <div className="app">
-      <Sidebar isSidebar={isSidebar} activeItem="Team" />
+      <Sidebar activeItem="Team" />
 
       <main className="content">
-        <Topbar setIsSidebar={setIsSidebar} />
+        <Topbar />
 
         <Box m="20px" mt="10px">
-          <Header title="World Map" subtitle="Simple Geog Chart" />
+          <Header title="World Map" subtitle="Not Simple Geog Chart" />
           <Box height="75vh">
             <GeographyChart />
           </Box>

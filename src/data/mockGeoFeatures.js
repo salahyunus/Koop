@@ -1,4 +1,5 @@
-// Dummy data for testing & debugging purpose
+// dummy map data for whole world map and using colors we did in themejs
+// https://nivo.rocks/geomap/
 export const geoFeatures = {
   type: "FeatureCollection",
   features: [

@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React from "react";
 import Sidebar from "../global/Sidebar";
 import Topbar from "../global/Topbar";
 import { Box, Button, IconButton, Typography, useTheme } from "@mui/material";
@@ -19,14 +19,12 @@ import ProgressCircle from "../../components/ProgressCircle";
 const Dashboard = () => {
   const theme = useTheme();
   const colors = tokens(theme.palette.mode);
-  const [isSidebar, setIsSidebar] = useState(true);
   return (
     <div className="app">
-      <Sidebar isSidebar={isSidebar} />
+      <Sidebar />
       <main className="content">
-        <Topbar setIsSidebar={setIsSidebar} />
+        <Topbar />
         <Box m="20px">
-          {/* HEADER */}
           <Box
             display="flex"
             justifyContent="space-between"
@@ -50,14 +48,12 @@ const Dashboard = () => {
             </Box>
           </Box>
 
-          {/* GRID & CHARTS */}
           <Box
             display="grid"
             gridTemplateColumns="repeat(12, 1fr)"
             gridAutoRows="140px"
             gap="20px"
           >
-            {/* ROW 1 */}
             <Box
               gridColumn="span 3"
               backgroundColor={colors.primary[400]}
@@ -135,7 +131,6 @@ const Dashboard = () => {
               />
             </Box>
 
-            {/* ROW 2 */}
             <Box
               gridColumn="span 8"
               gridRow="span 2"
@@ -231,7 +226,6 @@ const Dashboard = () => {
               ))}
             </Box>
 
-            {/* ROW 3 */}
             <Box
               gridColumn="span 4"
               gridRow="span 2"

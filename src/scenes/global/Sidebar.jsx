@@ -1,4 +1,5 @@
 // remember to download an earlier version of sidebar (0.7.1 here)
+// Managing state
 import { useEffect, useState } from "react";
 import { ProSidebar, Menu, MenuItem } from "react-pro-sidebar";
 // MUI Comps.
@@ -39,17 +40,21 @@ import {
   piePath,
   teamPath,
 } from "../../paths";
-
+// item component: (using nested component)
 const Item = ({ title, to, icon, selected, setSelected }) => {
+  // props are: title, to, icon, selected, setSelected
   const theme = useTheme();
+  // get colors
   const colors = tokens(theme.palette.mode);
 
   return (
+    // add active class if it's selected
     <MenuItem
       className={selected === title ? "pro-menu-item active" : "pro-menu-item"}
       style={{
         color: colors.grey[100],
       }}
+      // setSelected if clicked
       onClick={() => setSelected(title)}
       icon={icon}
     >
@@ -60,6 +65,7 @@ const Item = ({ title, to, icon, selected, setSelected }) => {
 };
 
 const Sidebar = () => {
+  // get current path
   const location = useLocation();
 
   let userImage = userImg;
